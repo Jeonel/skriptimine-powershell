@@ -1,13 +1,10 @@
-﻿$numbers1 = @( 1, 2, 3)
-$numbers2 = @( 4, 5, 6)
+﻿$num1 = @(1,2,3)
+$num2 = @(4,5,6)
 
-$el3 += $numbers1[0] + $numbers2[0]
-$el3 += $numbers1[1] + $numbers2[1]
+$num3 = @()
 
-# $numbers3 = @($el1, $el2, $el3) #
-# Variant 2
+$num3 += $num1[0] + $num2[0]
+$num3 += $num1[1] + $num2[1]
+$num3 += $num1[2] + $num2[2]
 
-#$numbers3 = @()
-#$numbers3 = $numbers3 + $el1
-#$numbers3 = $numbers3 + $el2
-#$numbers3 = $numbers3 + $el3
+$num3
