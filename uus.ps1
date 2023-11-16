@@ -1,0 +1,1 @@
+﻿write-host "I like to learn power shell skripting" -ForegroundColor Green
